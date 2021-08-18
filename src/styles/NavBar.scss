@@ -1,0 +1,53 @@
+@import './Variables';
+
+header{
+    height: 5rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.navbar{
+    width: 100%;
+    background: $black;
+    z-index: 999999 !important;
+    padding: 0 4rem;
+    a{
+        color: $white !important;
+    }
+    .brand{
+        margin-left: .2rem;
+        cursor: pointer;
+    }
+    .name-man{
+        display: block;
+        line-height: .8rem;
+        padding-top: .8rem;
+        font-size: 1.8rem;
+    }
+    .man{
+        font-size: .9rem;
+    }
+    .link{
+        padding: .6rem 2rem 0 1.5rem !important;
+        cursor: pointer;
+        font-size: 1.1rem;
+        &:hover{
+        color: $strongOrange !important;
+        }
+    }
+    .nav-item .media{
+        margin-left: 1.5rem;
+    }
+    .nav-item .contacto{
+        margin-right: 5rem;
+    }
+    .navbar-toggler{
+        border-color: transparent !important;
+        color: transparent !important;
+    }
+    .navbar-toggler .icon > i{
+        color: $white;
+    }
+}

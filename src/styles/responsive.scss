@@ -1,0 +1,148 @@
+@media(max-width:576px) {
+    .navbar{
+        padding: 0;
+    }
+    .centrado{
+        margin-left: 0 !important;
+    }
+    .text{
+        text-align: center !important;
+    }
+    .about .container-sm{
+        padding: 0;
+    }
+    .last{
+        height: 8rem !important;
+        padding: 0 !important;
+    }
+    .firma > img{
+        margin-right: .8rem;
+    }
+    .letraB{
+        margin-left: 1.2rem !important;
+    }
+    .props > img{
+        object-fit: cover;
+        position: relative;
+        right: 150%;
+        height: 600px;
+    }
+    .featured-props h3{
+        margin-left: 0;
+        text-align: center;
+    }
+    .blog{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sup-footer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .social-media{
+        margin-bottom: 3.5rem;
+    }
+    .form .button{
+        text-align: center !important;
+    }
+    .logo{
+        top: -35rem !important;
+        margin-left: 70% !important;
+    }
+    .about .logo .logoB{
+        position: absolute;
+        left: 30px;
+        top: 25px;
+    }
+    
+    .rotating{
+        width: 6rem !important;
+        height: 6rem;
+        aspect-ratio: 1 / 1;
+    }
+    
+    .logoB{
+        aspect-ratio: 1 / 1;
+        width: 3rem !important;
+        height: 3rem;
+    }
+    .firma > img{
+        width: 7.5rem;
+        object-fit: cover;
+        padding-top: 1.5rem;
+    }
+}
+
+
+
+@media(max-width:992px) {
+    .container-about{
+        margin: auto;
+        text-align: center;
+        max-width: 900px;
+    }
+    .text{
+        padding: 0 1rem 5rem 1rem;
+    }
+    .content-form input[type=text],
+    .content-form input[type=tel],
+    .content-form input[type=email],
+    .content-form select,
+    .content-form textarea {
+      padding: .8rem 1rem;
+      margin-bottom: .8rem; }
+    .content-form i {
+      top: calc(50% - 1rem); 
+    }
+    h3 > .blog-title {
+        margin-left: 2rem;
+    }
+    .social-media{
+        margin-bottom: 3.5rem;
+    }
+    .logo{
+        position: relative;
+        top: -35rem;
+    }
+}
+
+
+
+@media(max-width: 400px){
+    .logo{
+        top: -25rem !important;
+        margin-left: 59% !important;
+    }
+    .featured-props .container-fluid #props{
+        height: 25rem;
+        background-image: url(../images/card4.png) !important;
+        background-size: cover;
+        background-position: center;
+        margin-top: 2.5rem;
+    }
+    .blog .row{
+        --bs-gutter-x: 0;
+    }
+
+}
+
+
+@media(max-width: 1200px){
+    .logo{
+        position: relative;
+        top: -36rem;
+    }
+    .row h2{
+        padding-top: 0;
+        font-size: 1.8rem;
+        font-weight:500;
+    }
+    .row h2 > .nombre-agente {
+        padding-bottom: 1rem;
+    }
+    .firma > img{
+        width: 7rem;
+        padding-top: 1rem;
+    }
+
+}

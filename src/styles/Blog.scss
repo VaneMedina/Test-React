@@ -1,0 +1,30 @@
+@import './Variables';
+
+.blog{
+    padding: 8rem 2.5rem 0 2.5rem;
+    background-color: $black;
+    h3{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        
+        .featured{
+            color: $strongOrange;
+        }
+
+        .blog-title{
+            color: $pureWhite;
+            margin-left: 2rem;
+        }
+        .card-blog{
+            img{
+                object-fit: cover;
+                box-shadow: 3px 6px 5px rgba(197, 196, 201, 0.329);
+                width: 96%;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+
+    
+}
+

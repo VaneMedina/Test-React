@@ -1,0 +1,14 @@
+@import './Variables';
+
+footer{
+    background-color: $black;
+    padding: 1.5rem 0;
+    p{
+        color: $white;
+        margin: 0;
+        a{
+            text-decoration: none;
+            color: $blue;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import './Variables';
+
+.featured-props{
+    background-color: $strongWhite;
+    #props{
+        height: 800px;
+        background-image: url("../images/Captura\ de\ pantalla\ 2021-08-10\ a\ las\ 15.14.45.png") !important;
+    }
+    h3{
+        font-size: 2rem;
+        margin-left: 4.1rem;
+    }
+    .props{
+        img{
+            object-fit: cover;
+        }
+    }
+}
+
+ 
+.text-center .btn{
+    background-color: $orange;
+    padding: 1rem 1.2rem;
+    font-size: 1.2rem;
+    color: $pureWhite !important;
+    font-weight: 600;
+    margin: 6rem 0;
+    width: 18rem;
+    border-radius: 0%;
+    text-align: center;
+}
+

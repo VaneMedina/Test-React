@@ -1,0 +1,100 @@
+.about {
+  background: radial-gradient(circle at 75% 37.8%, #FFFFFF 5%, #c2c0c0 81%);
+  position: relative;
+  padding-top: 4rem;
+}
+
+.about .logo {
+  position: relative;
+  top: -44rem;
+}
+
+.about .logo .rotating {
+  width: 9.3rem !important;
+  height: 9.3rem;
+  aspect-ratio: 1 / 1;
+}
+
+.about .logo img {
+  width: 100%;
+}
+
+.about .logo .logoB {
+  position: absolute;
+  left: 42px;
+  top: 30px;
+  aspect-ratio: 1 / 1;
+  width: 5.2rem !important;
+  height: 5.1rem;
+}
+
+.about .logo .rotating {
+  -webkit-animation: rotating 12s linear infinite;
+          animation: rotating 12s linear infinite;
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.last {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F6F6F6;
+  height: 12rem;
+}
+
+.row .firma img {
+  width: 9rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 4rem;
+  padding-top: 3rem;
+}
+
+.row .paragraph {
+  font-size: 1.15rem;
+  color: #2F2F2F;
+  font-weight: 300;
+}
+
+.row .barra::after {
+  content: "";
+  height: 2px;
+  width: 6vh;
+  background: #EF730D;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.row .agente img {
+  padding-top: 1rem;
+}
+
+.row h2 {
+  padding-top: 3rem;
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.row h2 span {
+  display: block;
+  line-height: 2.5rem;
+}
+/*# sourceMappingURL=About.css.map */

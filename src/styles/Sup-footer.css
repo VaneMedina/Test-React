@@ -1,0 +1,125 @@
+.sup-footer {
+  background-color: #F6F6F6;
+  padding: 8rem 4rem 6rem 4rem;
+  z-index: 9;
+  position: relative;
+}
+
+.sup-footer h4 {
+  color: #EF730D;
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+.sup-footer h5 {
+  color: #1E1E1E;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: .5rem;
+}
+
+.sup-footer .contact {
+  padding: 2rem 0;
+}
+
+.sup-footer .contact a {
+  display: block;
+  text-decoration: none;
+  color: #1E1E1E;
+  font-size: 1.3rem;
+  width: 15rem;
+}
+
+.sup-footer .social-media img {
+  padding-right: .5rem;
+  cursor: pointer;
+}
+
+.form textarea {
+  border: 1px solid #888888;
+  background-color: transparent;
+  padding: 1rem;
+  margin: 0 0 .7rem 0;
+}
+
+.form input {
+  border: 1px solid #888888;
+  background-color: transparent;
+  padding: 1rem;
+  margin: 0 0 .7rem 0;
+}
+
+.form .input {
+  width: 38%;
+  margin-right: 2.2rem;
+}
+
+.content-form input[type=text],
+.content-form input[type=tel],
+.content-form input[type=email],
+.content-form select,
+.content-form textarea {
+  width: 100%;
+  padding: 1.1rem 2rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1px solid #888888 !important;
+  border-radius: 0;
+}
+
+.content-form input[type=text]::-webkit-input-placeholder,
+.content-form input[type=tel]::-webkit-input-placeholder,
+.content-form input[type=email]::-webkit-input-placeholder,
+.content-form select::-webkit-input-placeholder,
+.content-form textarea::-webkit-input-placeholder {
+  color: #1E1E1E;
+}
+
+.content-form input[type=text]:-ms-input-placeholder,
+.content-form input[type=tel]:-ms-input-placeholder,
+.content-form input[type=email]:-ms-input-placeholder,
+.content-form select:-ms-input-placeholder,
+.content-form textarea:-ms-input-placeholder {
+  color: #1E1E1E;
+}
+
+.content-form input[type=text]::-ms-input-placeholder,
+.content-form input[type=tel]::-ms-input-placeholder,
+.content-form input[type=email]::-ms-input-placeholder,
+.content-form select::-ms-input-placeholder,
+.content-form textarea::-ms-input-placeholder {
+  color: #1E1E1E;
+}
+
+.content-form input[type=text]::placeholder,
+.content-form input[type=tel]::placeholder,
+.content-form input[type=email]::placeholder,
+.content-form select::placeholder,
+.content-form textarea::placeholder {
+  color: #1E1E1E;
+}
+
+.content-form input[type=text]:focus,
+.content-form input[type=tel]:focus,
+.content-form input[type=email]:focus,
+.content-form select:focus,
+.content-form select:focus,
+.content-form textarea:focus {
+  border: 1px solid #EF730D !important;
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.content-form select {
+  color: #888888;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+}
+/*# sourceMappingURL=Sup-footer.css.map */

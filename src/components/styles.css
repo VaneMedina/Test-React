@@ -1,0 +1,560 @@
+
+
+/*NAVBAR*/
+.navbar{
+    width: 100%;
+    background: #1E1E1E;
+    z-index: 999999 !important;
+    padding: 0 4rem;
+}
+
+.navbar a{
+    color: #EDEDED !important;
+}
+
+.navbar .link:hover{
+    color: #EF730D !important;
+}
+
+
+.brand{
+    margin-left: .2rem;
+    cursor: pointer;
+}
+
+.navbar .nombre-consultor{
+    display: block;
+    line-height: .8rem;
+    padding-top: .8rem;
+    font-size: 1.8rem;
+}
+
+.navbar .consultor{
+    font-size: .9rem;
+}
+
+.navbar .nav-item .link{
+    padding: .6rem 2rem 0 1.5rem !important;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+.navbar .nav-item .media{
+    margin-left: 1.5rem;
+}
+
+.navbar .nav-item .contacto{
+    margin-right: 5rem;
+}
+
+.navbar .navbar-toggler{
+    border-color: transparent !important;
+    color: transparent !important;
+}
+
+.navbar .navbar-toggler .icon > i{
+    color: #EDEDED;
+}
+
+
+/*FIN NAVBAR*/
+/*
+.about .container-sm{
+    padding: 4rem 5rem;
+}
+*/
+
+
+/*BANNER*/
+.banner#banner-main {
+    background-image: url(../images/Portada.png);
+    min-height: 90vh;
+    max-height: 90vh;
+}
+
+.banner{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.banner .opacity {
+    width: 100%;
+    height: 90vh;
+    background-color: #5757577c;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.arrow{
+    text-decoration: none;
+    z-index: 99999 !important;
+    position: absolute;
+    bottom: 5vh;
+    width: 100%;
+    cursor: pointer;
+    margin: auto;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+}
+
+.arrow span{
+    background-color: #f6f6f652;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 3.2rem;
+    height: 3.2rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    vertical-align: middle;
+    border-radius: 100%;
+    transform: rotate(0deg);
+    transition: .4s ease all;
+    align-self: center;
+}
+
+.arrow span:hover{
+    background-color: #ef730db9;
+}
+
+.arrow span > img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media(min-width:992px) {
+    .banner#banner-main {
+    min-height:90vh;
+    max-height:100vh;
+    }
+}
+/*FIN BANNER*/
+
+/*ABOUT*/
+.about{
+    background: radial-gradient(circle at 75% 37.8%, #FFFFFF 5%,#c2c0c0 81%);
+    position: relative;
+    padding-top: 4rem;
+}
+
+.about .logo .rotating {
+    animation: rotating 12s linear infinite;
+   }
+
+@keyframes rotating {
+    from {
+     -webkit-transform:rotate(0deg)
+    }
+    to {
+     -webkit-transform:rotate(360deg)
+    }
+}
+
+
+.last{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F6F6F6;
+    height: 12rem;
+}
+
+.row .barra::after{
+    content: "";
+    height: 2px;
+    width: 6vh;
+    background: #EF730D;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+
+.row .agente img{
+    padding-top: 1rem;
+}
+
+.row h2 span{
+    display: block;
+    line-height: 2.5rem;
+}
+
+.firma > img{
+    width: 9rem;
+    object-fit: cover;
+    margin-right: 4rem;
+    padding-top: 3rem;
+}
+
+.row h2{
+    padding-top: 3rem;
+    font-size: 2.1rem;
+    font-weight:500;
+}
+
+.row .paragraph{
+    font-size: 1.15rem;
+    color: #2F2F2F;
+    font-weight: 300;
+}
+
+.row h2 > .nombre-agente{
+    color: #EF730D;
+    padding-bottom: 2rem;
+}
+
+
+
+.logo{
+    position: relative;
+    top: -44rem;
+}
+
+.about .logo img{
+    width: 100%;
+}
+
+.about .logo .logoB{
+    position: absolute;
+    left: 42px;
+    top: 30px;
+}
+
+.rotating{
+    width: 9.3rem !important;
+    height: 9.3rem;
+    aspect-ratio: 1 / 1;
+}
+
+.logoB{
+    aspect-ratio: 1 / 1;
+    width: 5.2rem !important;
+    height: 5.1rem;
+}
+
+
+/*FIN ABOUT*/
+
+
+
+.featured-props{
+    background-color: #F6F6F6;
+}
+
+.props > img{
+    object-fit: cover;
+}
+
+.featured-props h3{
+    font-size: 2rem;
+    margin-left: 4.1rem;
+}
+
+
+.featured-props .container-fluid #props{
+    height: 800px;
+    background-image: url(../images/Captura\ de\ pantalla\ 2021-08-10\ a\ las\ 15.14.45.png) !important;
+}
+
+.text-center .btn{
+    background-color: #ef7208;
+    padding: 1rem 1.2rem;
+    font-size: 1.2rem;
+    color: #fff !important;
+    font-weight: 600;
+    margin: 6rem 0;
+    width: 18rem;
+    border-radius: 0%;
+    text-align: center;
+}
+
+/*FIN FEATURED PROPS*/
+
+
+.form .field-submit{
+    background-color: #ef7208;
+    padding: 1rem 1.4rem;
+    font-size: 1.2rem;
+    color: #fff !important;
+    font-weight: 400;
+    margin: 1rem 0;
+    width: 16rem;
+    border-radius: 0%;
+    text-align: center;
+    border: 0;
+}
+
+
+
+
+
+h3 > .featured{
+    color: #EF730D;
+}
+
+h3 > .blog-title{
+    color: #FFFFFF;
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.blog{
+    padding: 8rem 2.5rem 0 2.5rem;
+    background-color: #1E1E1E;
+}
+
+.blog .card-blog > img{
+    object-fit: cover;
+    box-shadow: 3px 6px 5px rgba(197, 196, 201, 0.329);
+    width: 96%;
+    margin-bottom: 4rem;
+}
+
+
+.blog h3{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+/*SUP FOOTER*/
+
+
+.sup-footer{
+    background-color: #F6F6F6;
+    padding: 8rem 4rem 6rem 4rem;
+    z-index: 9;
+    position: relative;
+}
+
+
+.sup-footer h4{
+    color: #EF730D;
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+.sup-footer h5{
+    color: #1E1E1E;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.sup-footer .contact{
+    padding: 2rem 0;
+}
+
+.sup-footer .contact > a{
+    display: block;
+    text-decoration: none;
+    color: #1E1E1E;
+    font-size: 1.3rem;
+    width: 15rem;
+}
+
+.form input, textarea{
+    border: 1px solid #888888;
+    background-color: transparent;
+    padding: 1rem;
+    margin: 0 0 .7rem 0;
+}
+
+.form .input{
+    width: 38%;
+    margin-right: 2.2rem;
+}
+
+
+.social-media > img{
+    padding-right: .5rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*FIN SUP FOOTER*/
+
+
+
+
+
+/*FORMULARIO*/
+
+
+
+
+/*FIN FORMULARIO*/
+
+@media(max-width:576px) {
+    .navbar{
+        padding: 0;
+    }
+    .centrado{
+        margin-left: 0 !important;
+    }
+    .text{
+        text-align: center !important;
+    }
+    .about .container-sm{
+        padding: 0;
+    }
+    .last{
+        height: 8rem !important;
+        padding: 0 !important;
+    }
+    .firma > img{
+        margin-right: .8rem;
+    }
+    .letraB{
+        margin-left: 1.2rem !important;
+    }
+    .props > img{
+        object-fit: cover;
+        position: relative;
+        right: 150%;
+        height: 600px;
+    }
+    .featured-props h3{
+        margin-left: 0;
+        text-align: center;
+    }
+    .blog{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sup-footer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .social-media{
+        margin-bottom: 3.5rem;
+    }
+    .form .button{
+        text-align: center !important;
+    }
+    .logo{
+        top: -35rem !important;
+        margin-left: 70% !important;
+    }
+    .about .logo .logoB{
+        position: absolute;
+        left: 30px;
+        top: 25px;
+    }
+    
+    .rotating{
+        width: 6rem !important;
+        height: 6rem;
+        aspect-ratio: 1 / 1;
+    }
+    
+    .logoB{
+        aspect-ratio: 1 / 1;
+        width: 3rem !important;
+        height: 3rem;
+    }
+    .firma > img{
+        width: 7.5rem;
+        object-fit: cover;
+        padding-top: 1.5rem;
+    }
+}
+
+
+
+@media(max-width:992px) {
+    .container-about{
+        margin: auto;
+        text-align: center;
+        max-width: 900px;
+    }
+    .text{
+        padding: 0 1rem 5rem 1rem;
+    }
+    .content-form input[type=text],
+    .content-form input[type=tel],
+    .content-form input[type=email],
+    .content-form select,
+    .content-form textarea {
+      padding: .8rem 1rem;
+      margin-bottom: .8rem; }
+    .content-form i {
+      top: calc(50% - 1rem); 
+    }
+    h3 > .blog-title {
+        margin-left: 2rem;
+    }
+    .social-media{
+        margin-bottom: 3.5rem;
+    }
+    .logo{
+        position: relative;
+        top: -35rem;
+    }
+}
+
+
+
+@media(max-width: 400px){
+    .logo{
+        top: -25rem !important;
+        margin-left: 59% !important;
+    }
+    .featured-props .container-fluid #props{
+        height: 25rem;
+        background-image: url(../images/card4.png) !important;
+        background-size: cover;
+        background-position: center;
+        margin-top: 2.5rem;
+    }
+    .blog .row{
+        --bs-gutter-x: 0;
+    }
+
+}
+
+
+@media(max-width: 1200px){
+    .logo{
+        position: relative;
+        top: -36rem;
+    }
+    .row h2{
+        padding-top: 0;
+        font-size: 1.8rem;
+        font-weight:500;
+    }
+    .row h2 > .nombre-agente {
+        padding-bottom: 1rem;
+    }
+    .firma > img{
+        width: 7rem;
+        padding-top: 1rem;
+    }
+
+}
+

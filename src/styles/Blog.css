@@ -1,0 +1,28 @@
+.blog {
+  padding: 8rem 2.5rem 0 2.5rem;
+  background-color: #1E1E1E;
+}
+
+.blog h3 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.blog h3 .featured {
+  color: #EF730D;
+}
+
+.blog h3 .blog-title {
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+
+.blog h3 .card-blog img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 3px 6px 5px rgba(197, 196, 201, 0.329);
+          box-shadow: 3px 6px 5px rgba(197, 196, 201, 0.329);
+  width: 96%;
+  margin-bottom: 4rem;
+}
+/*# sourceMappingURL=Blog.css.map */

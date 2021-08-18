@@ -1,0 +1,35 @@
+@import './fonts.css';
+@import './responsive';
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+    padding:0;
+    margin:0 !important;
+    box-sizing:border-box !important;
+    font-weight:400;
+    font-family:gellix !important;
+    line-height:unset;
+    text-transform :none;
+    overflow-x:hidden;
+}
+
+header{
+    height: 5rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+
+
+.row{
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+}
